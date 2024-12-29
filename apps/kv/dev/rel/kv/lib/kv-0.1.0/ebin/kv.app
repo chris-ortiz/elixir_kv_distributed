@@ -1,0 +1,9 @@
+{application,kv,
+             [{modules,['Elixir.KV','Elixir.KV.Bucket','Elixir.KV.Registry',
+                        'Elixir.KV.Supervisor']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"kv"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.KV',[]}}]}.
